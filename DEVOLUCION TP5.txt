@@ -1,0 +1,15 @@
+Martin, de dejo algunos comentarios:
+
+6.- Correcto, falta mencionar cómo sería el comando de conexión al nuevo puerto.
+
+7.- Falta mencionar que hay que habilitar el flag 'PrintMotd yes' en el archivo /etc/ssh/sshd_config.
+
+8.- Correcto pero eso sólo habilita la opción del lado del servidor. Falta mencionar cómo se realiza la conexión desde el cliente, hay que agregar el parámetro '-X' al invocar a ssh. Por ej: 'ssh -X mtosca@192.168.1.1'
+
+9.- No entregado.
+
+10.- No entregado.
+
+
+
+El resto están bien.
